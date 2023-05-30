@@ -112,8 +112,97 @@ main{
 .what-i-do-description{
    text-align: justify;
 }
+.skill-section{
+    margin-top: 50px;
+}
 
 .skill-container{
     margin-top: 120px;
     display: flex;
+    justify-content: space-around;
+    margin: 0px 200px;
+    gap:24px
 }
+
+.skill-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+.skill-description{
+    margin-top: 20px;
+    font-style: normal;
+}
+.skills-info{
+    background: #ffffff;
+    box-shadow: 0px 15px 50px rgba(23, 15, 15, 0.06);
+    padding: 50px;
+    text-align: justify;
+    
+    border-radius: 8px;
+    
+}
+
+.resume{
+   margin: 0px 200px;
+}
+.resume-title{
+text-align: center;
+margin-top: 40px;
+font-size: 30px;
+}
+
+.resume-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+.my-education{
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+}
+.my-experience{
+    font-style: normal;
+    text-align: center;
+    font-size: 20px;
+}
+.education-sub-title{
+    font-size: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.connect{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input{
+    padding: 10px 0px;
+}
+input,textarea{
+    gap: 24px;
+    border: none;
+}
+.footer-section{
+    background-color: #FFF8F3;
+    margin: 130px 200px;
+    text-align: center;
+    
+}
+.footer-title{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+ input,textarea{
+    margin-bottom: 24px;
+ }
